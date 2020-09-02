@@ -19,19 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a488faaf-0bbe-4b13-bd01-1f91d17e8904" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../Documentation/Add Directories 4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Documentation/Add HTML file 5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Documentation/Cloned GD 3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Documentation/Create Repo 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Documentation/Forking 7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Documentation/Install Web Storm 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Documentation/Issue 9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Documentation/Pull Request 8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Documentation/ReadMe file 6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Documentation/Synching 10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../index.html" beforeDir="false" />
-    </list>
+    <list default="true" id="a488faaf-0bbe-4b13-bd01-1f91d17e8904" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,6 +51,7 @@
       <workItem from="1599073165866" duration="2479000" />
       <workItem from="1599075908579" duration="438000" />
       <workItem from="1599076469444" duration="2000" />
+      <workItem from="1599083671612" duration="148000" />
     </task>
     <servers />
   </component>
