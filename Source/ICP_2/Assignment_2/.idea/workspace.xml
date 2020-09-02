@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8b4da920-af5a-4d12-bee9-8c4ef6a62907" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Documentation/Add Directories 4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Documentation/Add HTML file 5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Documentation/Cloned GD 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Documentation/Create Repo 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Documentation/Forking 7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Documentation/Install Web Storm 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Documentation/Issue 9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Documentation/Pull Request 8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Documentation/ReadMe file 6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Documentation/Synching 10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../index.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1gyAUkqW19MbJ29WHnirLxdrafE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b4da920-af5a-4d12-bee9-8c4ef6a62907" name="Default Changelist" comment="" />
+      <created>1599076475408</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599076475408</updated>
+      <workItem from="1599076476635" duration="609000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
