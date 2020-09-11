@@ -1,0 +1,109 @@
+.centeredGame {
+    width:500px;
+    height: auto;
+    margin:auto;
+}
+.centeredGame .buttons {
+    width: 90%;
+    height: 150px;
+    margin: 20px 60px;
+    alignment: center;
+}
+.centeredGame .buttons img{
+    transition: opacity .4s ease-in;
+}
+.centeredGame .buttons button:hover + img{
+    opacity: 1%;
+}
+.centeredGame .buttons .Rock{
+    float: left;
+    margin: 6px 9px;
+    height: 93px;
+    width: 100px;
+    background-size: 100px;
+    padding-top: 8px;
+}
+.centeredGame .buttons .Paper{
+    float: left;
+    margin: 6px 9px;
+    height: 92px;
+    width: 100px;
+    background-size: 100px;
+    padding-top: 8px;
+}
+.centeredGame .buttons .Scissor{
+    float: left;
+    margin: 6px 9px;
+    height: 92px;
+    width: 100px;
+    background-size: 100px;
+    padding-top: 8px;
+}
+.centeredGame .gameMessages{
+    width: 90%;
+    height: 100px;
+    margin: 10px auto;
+    border-radius: 4px;
+    font-size: 20px;
+    color: darkcyan;
+}
+.centeredGame .gameMessages #message{
+    text-align: center;
+}
+.centeredGame .gameMessages #output{
+    text-align: center;
+}
+.centeredGame #header1{
+    width: 95%;
+    height: 50px;
+    margin: 10px 10px;
+    border-radius: 4px;
+    background-color: cadetblue;
+    font-size: 38px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+}
+.centeredGame .scoreboard{
+    width: 70%;
+    height: 35px;
+    margin: 5px auto;
+    border-radius: 4px;
+    background-color: darkseagreen;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+}
+.centeredGame .scoreboard #CScore{
+    float: left;
+    margin: 6px 20px;
+    height: 70px;
+    width: 50px;
+    background-size: 100px;
+    padding-top: 8px;
+}
+.centeredGame .scoreboard #compScore{
+    float: left;
+    margin: 6px 20px;
+    height: 70px;
+    width: 100px;
+    background-size: 100px;
+    padding-top: 8px;
+}
+.centeredGame .scoreboard #PScore{
+    float: left;
+    margin: 6px 9px;
+    height: 70px;
+    width: 50px;
+    background-size: 100px;
+    padding-top: 8px;
+}
+.centeredGame .scoreboard #playerScore{
+    float: left;
+    margin: 6px 9px;
+    height: 70px;
+    width: 20px;
+    background-size: 100px;
+    padding-top: 8px;
+}

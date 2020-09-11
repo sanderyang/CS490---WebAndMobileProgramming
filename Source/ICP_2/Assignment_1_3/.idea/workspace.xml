@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a488faaf-0bbe-4b13-bd01-1f91d17e8904" name="Default Changelist" comment="" />
+    <list default="true" id="a488faaf-0bbe-4b13-bd01-1f91d17e8904" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_2/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +41,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="CSS" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Web and Mobile/Web_Lesson3" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -52,7 +55,10 @@
       <workItem from="1599075908579" duration="438000" />
       <workItem from="1599076469444" duration="2000" />
       <workItem from="1599083671612" duration="148000" />
-      <workItem from="1599084790676" duration="1527000" />
+      <workItem from="1599084790676" duration="1726000" />
+      <workItem from="1599186589290" duration="1215000" />
+      <workItem from="1599663500738" duration="17000" />
+      <workItem from="1599768533357" duration="1365000" />
     </task>
     <servers />
   </component>
@@ -70,5 +76,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1599784695942">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599784695942" />
   </component>
 </project>

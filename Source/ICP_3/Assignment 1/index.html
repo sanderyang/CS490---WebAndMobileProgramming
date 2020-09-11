@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>RPS Game</title>
+    <link href="Stylesheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4 col-lg-offset-4 centeredGame">
+            <div class="Header">
+                <h1 id="header1">Game of Rock, Paper, Scissors</h1>
+            </div>
+            <div class="buttons">
+                <div class="Rock"><button type="button"><img src="images/Rock.jpg" width="100" alt="Rock" id="Rock"></button></div>
+                <div class="Paper"><button type="button"><img src="images/Paper.jpg" width="100" alt="Paper" id="Paper"></button></div>
+                <div class="Scissor"><button type="button"><img src="images/Scissors.jpg" width="100" alt="Scissor" id="Scissor"></button></div>
+            </div>
+            <div class="gameMessages">
+                <p id="output"></p>
+                <p id ="message"></p>
+            </div>
+            <div class="scoreboard">
+                <h2>Score Board</h2>
+                <p id="CScore">Computer: </p><p id="compScore">0</p>
+                <p id="PScore">Player: </p><p id="playerScore">0</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="Script.js"></script>
+</body>
+</html>
