@@ -2,6 +2,6 @@
 For CS 490 0002
 
 /*******
-Special repository for CS 490 0002 for learning web and mobile programming.
+Special repository for CS 490 (Web and Mobile Programming) course.
 *******/
 
