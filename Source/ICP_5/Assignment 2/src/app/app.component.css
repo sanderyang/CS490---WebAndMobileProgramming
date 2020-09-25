@@ -1,0 +1,65 @@
+.container{
+  text-align: center;
+}
+
+.countDownTimer{
+  display: inline-block;
+  border-radius: 30px;
+  background-color: white;
+  alignment: center;
+  text-align: center;
+  width: 500px;
+  position: relative;
+}
+
+.countDownTimer .countDown{
+  display: inline-block;
+  background: #24292e;
+  alignment: center;
+  width: 300px;
+  text-align: center;
+  position: relative;
+}
+
+.countDownTimer .countDown .form-control{
+  background: #24292e;
+  alignment: center;
+  width: 300px;
+  text-align: center;
+  position: relative;
+  color:ghostwhite;
+}
+
+.header2{
+  color: #24292e;
+}
+
+.eventName{
+  background: #24292e;
+  width: 36px;
+  height: 36px;
+  color: cadetblue;
+  padding: 5px 5px;
+  position: absolute;
+  right: 5px;
+  top: 1px;
+  cursor: pointer;
+}
+.eventDate{
+  background: #24292e;
+  width: 36px;
+  height: 36px;
+  color: cadetblue;
+  padding: 5px 5px;
+  position: absolute;
+  right: 5px;
+  top: 39px;
+  cursor: pointer;
+}
+
+p {
+  color: whitesmoke;
+}
+.addInput {
+  color: whitesmoke;
+}
