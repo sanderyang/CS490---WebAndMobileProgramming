@@ -1,0 +1,56 @@
+.container{
+  text-align: center;
+}
+
+.header1{
+  color: whitesmoke;
+}
+
+form{
+  display: inline-block;
+  border-radius: 30px;
+  background: #24292e;
+  padding: 2px 5px;
+  text-align: center;
+  position: relative;
+  width: 800px;
+}
+
+form .form-control{
+  background: #fff;
+  color: #666;
+  padding: 1em;
+  width: 400px;
+  font-family: "Arial", serif;
+}
+
+form .addInput{
+  background: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  color: cadetblue;
+  position: absolute;
+  right: 200px;
+  top: 95px;
+  cursor: pointer;
+}
+
+form .theList li{
+  background: #fff;
+  padding: 1em;
+  margin: 1em auto;
+  color: #666;
+  font-family: "Arial", serif;
+}
+
+form .theList li .deleteBut{
+  float: right;
+  color: #888;
+  cursor: pointer;
+}
+
+form .theList li .completed{
+  float: left;
+  cursor: pointer;
+}

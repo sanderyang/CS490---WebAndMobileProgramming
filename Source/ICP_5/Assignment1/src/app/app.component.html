@@ -1,0 +1,16 @@
+<div class="container">
+  <form>
+    <h1 class="header1">To Do List</h1>
+    <div class="inputField">
+      <input type="text" #todo class="form-control" placeholder="To Do Items...">
+      <span class="addInput" (click)="submitNewItem(todo.value)">Add</span>
+      <div class="theList">
+        <ul>
+          <li *ngFor="let todo of items">{{todo}} <i (click)="deleteItem(todo)" class="deleteBut">delete</i>
+            <input type="checkbox" class="completed">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </form>
+</div>
