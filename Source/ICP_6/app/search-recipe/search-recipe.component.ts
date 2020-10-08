@@ -51,8 +51,7 @@ export class SearchRecipeComponent implements OnInit {
 
     if (this.placeValue != null && this.placeValue !== '' && this.recipeValue != null && this.recipeValue !== '') {
       // tslint:disable-next-line:max-line-length
-      this._http.get('https://api.foursquare.com/v2/venues/search?client_id=NMYT3TVAO2Q1LFL2USNECMB2QQQ3XDAGWAAFTXL4HMYGCAQS&client_secret=I1T2IFEPSGK' +
-        'KMN5BFM0WDKF3QW4XMKQFU1X5EIOJZBDE3FOK&near=' + this.placeValue + '&query=' + this.recipeValue + '&limit=5&v=20200101')
+      this._http.get('https://api.foursquare.com/v2/venues/search?client_id=FOURSQUARE_ID&client_secret=FOURSQUARE_SECRET&near=' + this.placeValue + '&query=' + this.recipeValue + '&limit=5&v=20200101')
         .subscribe((responses: any) => {
           this.venueList = Object.keys(responses.response.venues).map(function (k) {
             var i = responses.response.venues[k];
