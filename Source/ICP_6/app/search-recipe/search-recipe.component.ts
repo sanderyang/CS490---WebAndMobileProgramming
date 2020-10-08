@@ -40,7 +40,7 @@ export class SearchRecipeComponent implements OnInit {
     // tslint:disable-next-line:max-line-length
     if (this.recipeValue !== null) {
       // tslint:disable-next-line:max-line-length
-      this._http.get('https://api.edamam.com/search?app_id=f50d2f9c&app_key=4301ac3ad3c43df2f179b0f87ac9ef05&from=0&to=5&q=' + this.recipeValue)
+      this._http.get('https://api.edamam.com/search?app_id=EDAMAM_ID&from=0&to=5&q=' + this.recipeValue)
         .subscribe((responses: any) => {
           this.recipeList = Object.keys(responses.hits).map(function (k) {
             var i = responses.hits[k];
