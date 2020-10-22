@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BasicLogin</string>
+    <string name="login_screen">Login Screen</string>
+    <string name="username">Username</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="welcome_to_the_home_screen">Welcome to the Home Screen</string>
+    <string name="logout">Logout</string>
+    <string name="defaultimage">DefaultImage</string>
+</resources>
