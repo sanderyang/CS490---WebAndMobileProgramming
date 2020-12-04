@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "761083683643",
+    "firebase_url": "https://wise-alpha-295322.firebaseio.com",
+    "project_id": "wise-alpha-295322",
+    "storage_bucket": "wise-alpha-295322.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:761083683643:android:b70947e509f8da41e24d1e",
+        "android_client_info": {
+          "package_name": "com.sandy.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "761083683643-69uus7scki6gh076sjhnt5uhta3p19t9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQTOQWAt2A-1ZeFSz5lNaCp288X--ZJZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "761083683643-69uus7scki6gh076sjhnt5uhta3p19t9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
