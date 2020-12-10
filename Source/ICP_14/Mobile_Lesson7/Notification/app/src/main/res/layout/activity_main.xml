@@ -12,7 +12,7 @@
     <TextView
         android:id="@+id/hellotext"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="30dp"
         android:fontFamily="sans-serif-condensed"
         android:gravity="center"
         android:text="@string/hello_all"
@@ -25,16 +25,19 @@
         android:layout_height="wrap_content"
         android:background="#3ED5C6"
         android:fontFamily="sans-serif-condensed"
+        android:insetTop="1dp"
+        android:insetBottom="1dp"
         android:onClick="sendNotification"
         android:text="@string/send"
         android:textColor="@color/black"
-        android:textSize="20sp"
-        app:backgroundTint="#3ED5C6" />
+        android:textSize="12sp"
+        app:backgroundTint="#3ED5C6"
+        app:iconPadding="2dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="bottom|center"
+        android:gravity="center"
         android:orientation="vertical">
 
         <TextView
@@ -55,12 +58,12 @@
             android:gravity="center"
             android:text="12/09/2020"
             android:textColor="@color/black"
-            android:textSize="30sp" />
+            android:textSize="15sp" />
 
         <CalendarView
             android:id="@+id/calendarView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="250dp" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/addToCal"

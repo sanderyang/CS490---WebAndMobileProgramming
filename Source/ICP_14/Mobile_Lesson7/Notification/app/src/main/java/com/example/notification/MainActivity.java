@@ -13,22 +13,27 @@ import android.annotation.SuppressLint;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
+import android.content.ContentResolver;
+import android.content.ContentValues;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.provider.CalendarContract;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.CalendarView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
+import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.logging.SimpleFormatter;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -68,12 +73,7 @@ public class MainActivity extends AppCompatActivity {
 
         // This is the add to calendar button.
         FloatingActionButton addToCal = findViewById(R.id.addToCal);
-        addToCal.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v) {
-                addCal();
-            }
-        });
+        addToCal.setOnClickListener(v -> addCal());
 
         // Create the NotificationChannel
         // you should execute this code as soon as your app starts
@@ -116,10 +116,11 @@ public class MainActivity extends AppCompatActivity {
 
     // Method to add a new event into the calendar.
     public void addCal(){
+        Calendar calendar = Calendar.getInstance();
+        calendar.set(selectedYear, selectedMonth -1, selectedDay, 8, 0);
         Intent intent = new Intent (Intent.ACTION_INSERT, CalendarContract.Events.CONTENT_URI);
-        intent.putExtra(CalendarContract.Events.TITLE, " ");
-        Calendar startTime = Calendar.getInstance();
-        startTime.set(selectedYear, selectedMonth-1, selectedDay);
+        intent.putExtra(CalendarContract.Events.TITLE, "");
+        intent.putExtra(CalendarContract.EXTRA_EVENT_BEGIN_TIME, calendar.getTimeInMillis());
         startActivity(intent);
     }
 
